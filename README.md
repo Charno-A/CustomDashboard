@@ -17,4 +17,89 @@ Frontend: HTML<br><br>
 
 ### Structure
 `CustomDashboard/`<br>
-`│── 
+`│── accounts/`<br>
+`│   ├── __init__.py`<br>
+`│   ├── admin.py`<br>
+`│   ├── apps.py`<br>
+`│   ├── models.py`<br>
+`│   ├── tests.py`<br>
+`│   ├── urls.py`<br>
+`│   └── views.py`<br>
+`│`<br>
+`│── CustomDashboard/`<br>
+`│   ├── __init__.py`<br>
+`│   ├── asgi.py`<br>
+`│   ├── settings.py`<br>
+`│   ├── urls.py`<br>
+`│   └── wsgis.py`<br>
+`│`<br>
+`│── dashboard/`<br>
+`│   ├── templates/dashboard/`<br>
+`│   │   ├── accounts/templates/dashboard/`<br>
+`│   │   │   └── login.html`<br>
+`│   │   ├── dashboard/templates/dashboard/`<br>
+`│   │   │   ├── base.html`<br>
+`│   │   │   └── index.html`<br>
+`│   │   ├── orders/templates/dashboard/`<br>
+`│   │   └── products/templates/dashboard/`<br>
+`│   ├── __init__.py`<br>
+`│   ├── admin.py`<br>
+`│   ├── apps.py`<br>
+`│   ├── models.py`<br>
+`│   ├── tests.py`<br>
+`│   ├── urls.py`<br>
+`│   └── views.py`<br>
+`│`<br>
+`│── orders/`<br>
+`│   ├── __init__.py`<br>
+`│   ├── admin.py`<br>
+`│   ├── apps.py`<br>
+`│   ├── models.py`<br>
+`│   ├── tests.py`<br>
+`│   ├── urls.py`<br>
+`│   └── views.py`<br>
+`│`<br>
+`│── products/`<br>
+`│   ├── __init__.py`<br>
+`│   ├── admin.py`<br>
+`│   ├── apps.py`<br>
+`│   ├── models.py`<br>
+`│   ├── tests.py`<br>
+`│   ├── urls.py`<br>
+`│   └── views.py`<br>
+`│`<br>
+`│── static/`<br>
+`│   ├── css/`<br>
+`│   ├── images/`<br>
+`│   └── js/`<br>
+`│`<br>
+`│── main.py`<br>
+`└── manage.py`<br><br>
+
+### Setup
+`git clone <your-repo-link>`<br>
+`cd <repo>`<br>
+`pip install django`<br>
+`python manage.py migrate`<br>
+`python manage.py runserver`<br>
+
+Open:
+
+`http://127.0.0.1:8000/`<br><br>
+
+### Troubleshooting
+TemplateSyntaxError (`endblock`)<br>
+    → Fix incorrect `{% block %}` structure<br>
+Template not found<br>
+    → Add templates directory in `settings.py`<br>
+Static files not loading (CSS/JS/images)<br>
+    → Use: `{% load static %}` in templates<br><br>
+    
+### Future Work
+Improved UI<br>
+Improved security systems<br>
+Improved functionability<br><br>
+
+### Author
+
+Charno A.<br><br>
