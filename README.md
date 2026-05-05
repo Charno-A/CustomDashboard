@@ -1,4 +1,3 @@
-<img width="1919" height="1078" alt="Screenshot 2026-05-05 075518" src="https://github.com/user-attachments/assets/b9c8e914-31ef-41de-9e91-50b394eec3c0" /># CustomDashboard
 ## Django Custom Dashoard
 
 A custom Django admin dashboard for Users, Products, Orders, Analytics/Charts and Roles/Permissions. This is not using Django's default admin interface as the main dashboard. <br><br>
@@ -96,8 +95,8 @@ Static files not loading (CSS/JS/images)<br>
     → Use: `{% load static %}` in templates<br><br>
 
 ### Preview
-Home
-<img width="1851" height="934" alt="Screenshot 2026-05-05 075518" src="https://github.com/user-attachments/assets/50de70ff-36ae-419e-8120-1204fa899c9b" />
+Custom Dashboard
+<img width="1919" height="1078" alt="Screenshot 2026-05-05 075518" src="https://github.com/user-attachments/assets/b9c8e914-31ef-41de-9e91-50b394eec3c0" />
 Dashboard
 <img width="1849" height="933" alt="Screenshot 2026-05-05 075526" src="https://github.com/user-attachments/assets/bfd9af77-40c6-4f74-b703-6058e346bb88" /><br><br>
 
