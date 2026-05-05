@@ -96,9 +96,9 @@ Static files not loading (CSS/JS/images)<br>
 
 ### Preview
 Custom Dashboard
-<img width="1919" height="1078" alt="Screenshot 2026-05-05 075518" src="https://github.com/user-attachments/assets/b9c8e914-31ef-41de-9e91-50b394eec3c0" />
-Dashboard
-<img width="1849" height="933" alt="Screenshot 2026-05-05 075526" src="https://github.com/user-attachments/assets/bfd9af77-40c6-4f74-b703-6058e346bb88" /><br><br>
+<img width="1919" height="1078" alt="Screenshot 2026-05-05 075518" src="https://github.com/user-attachments/assets/b9c8e914-31ef-41de-9e91-50b394eec3c0"/>
+Login Page
+<img width="1919" height="1079" alt="Screenshot 2026-05-05 075526" src="https://github.com/user-attachments/assets/2db93b3c-de1a-4960-8202-355a4157ded0"/><br><br>
 
 ### Future Work
 Improved UI<br>
